@@ -19,6 +19,20 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
+## Local web GUI (macOS)
+
+Install the dependencies above, then launch the dashboard from the project folder:
+
+```bash
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+streamlit run app.py --server.address 127.0.0.1
+```
+
+Streamlit prints a local URL (normally `http://127.0.0.1:8501`). Open it in your browser. The dashboard accepts one or more local file/folder paths, shows scan progress, supports checkpoint-based resume, filters results, and downloads CSV/JSON reports. Use **Stop safely** to request cancellation; requests already in flight may take time to return. The GUI binds to localhost by default when launched with the command above and does not upload data to a remote dashboard service.
+
+Keep `links.txt` and generated reports private. The GUI is a local interface to the existing scanner, not a guarantee that every API status is definitive.
+
 ## Scan
 
 Place links in `links.txt`, then run:

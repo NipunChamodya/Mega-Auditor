@@ -6,20 +6,15 @@ __pycache__/
 venv/
 .env
 
-# IDE and operating system
+# macOS / editors
+.DS_Store
+**/.DS_Store
 .vscode/
 .idea/
-.DS_Store
 
-# Generated audit results and local state
+# Private input and generated scan data
+links.txt
 mega_results/
 *.log
 *.sqlite
 *.db
-
-# Personal MEGA links
-links.txt
-
-# macOS metadata
-.DS_Store
-**/.DS_Store
