@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+
+# Generated audit results and local state
+mega_results/
+*.log
+*.sqlite
+*.db
+
+# Personal MEGA links
+links.txt
+
+# macOS metadata
+.DS_Store
+**/.DS_Store

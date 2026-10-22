@@ -1,0 +1,5 @@
+{
+  "learning": ["programming", "java", "python", "javascript", "web_development", "mobile_development", "software_engineering", "computer_science", "database", "cybersecurity", "networking", "mathematics", "ai_data_science", "university", "other"],
+  "non_learning": ["entertainment", "personal", "business", "other"],
+  "uncertain": ["review_required"]
+}
