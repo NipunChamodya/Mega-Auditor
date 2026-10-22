@@ -388,13 +388,7 @@ The included `.gitignore` excludes `links.txt` and `mega_results/` by default. I
 
 Use this tool only for lawful, authorized link auditing and personal organization. Respect the rights and privacy of link owners, platform terms, and applicable laws. Do not use it to distribute private material, bypass access controls, or claim that a link is permanently dead based on an inconclusive status.
 
-## 📜 License
 
-No license is specified in this repository yet. Add a `LICENSE` file before redistributing the project or accepting external contributions. Until a license is added, do not assume others have permission to reuse or redistribute the code.
-
----
-
-<div align="center">
 
 **Made for careful link auditing and better-organized learning resources.** 🔎📚🛡️
 
